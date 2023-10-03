@@ -11,10 +11,7 @@
             padding: 0;
             background-color: #ffffff; /* White background */
             color: #000000; /* Black text color */
-        }
-        .navbar {
-            background-color: #34495E;
-            padding: 10px 0;
+            
         }
         .navbar-content {
             max-width: 90%;
@@ -108,6 +105,21 @@
             margin: 5px 0; /* Add space between sections */
             text-align: left; /* Justify text on larger screens */
         }
+        
+/* Add padding to the top of sections to prevent overlap with navbar */
+.education,
+.experience,
+.publications,
+.recognition,
+.talk,
+.service,
+.student,
+.teaching{
+    padding-top: 70px; /* Adjust the padding as needed */
+     padding-bottom: 70px;
+}
+              
+        
     </style>
 </head>
 <body>
@@ -131,7 +143,7 @@
     <div class="container">
      	<div class="content">
             <p> My present research focuses on enhancing Large Language Models (LLMs) to achieve excellence in Software Engineering. This entails a dual emphasis on elevating performance and ensuring trustworthiness.
-Broadly speaking, my work resides at the intersection of machine learning and software engineering. Here, we harness the power of machine learning to alleviate the burdens faced by software developers, ultimately fostering increased productivity. I am privileged to receive guidance from Prof. Prem Devanbu.
+Broadly speaking, my work resides at the intersection of machine learning and software engineering. Here, we harness the power of machine learning to alleviate the burdens faced by software developers, ultimately fostering increased productivity. I am privileged to receive guidance from Prof. <a href="https://www.cs.ucdavis.edu/~devanbu/">Prem Devanbu</a>.
 My works have been published in esteemed Software Engineering venues including ICSE, ESEC/FSE, ASE, TSE, and EMSE.</p>
             
             
@@ -164,6 +176,9 @@ My works have been published in esteemed Software Engineering venues including I
 </div> -->
 
 <div class="education" id="education">
+
+
+
         <h2>Education</h2>
 		<p> <b>PhD in Computer Science</b>, September 2018 - June 2023<br> 
     	University of California Davis<br>
